@@ -1,3 +1,3 @@
 # Biomed-LDM
-TO Train the Autoencoder:
+To Train the Autoencoder:
 CUDA_VISIBLE_DEVICES=1 python pretrain_autoencoder.py
