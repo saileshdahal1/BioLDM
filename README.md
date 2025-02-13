@@ -1,4 +1,5 @@
 ## Biomed-LDM
+This repository contains the implementation of a \textbf{Domain Knowledge Guided Latent Diffusion Model for Biomedical Text Generation}, incorporating self-conditioning and residual-connected guidance for improved contextual text generation. Our approach enhances the generation of biomedical sentences by preserving domain-specific semantics through an iterative noising and denoising process.
 To Train the Autoencoder:
 Import the data in dataset directory.
 
