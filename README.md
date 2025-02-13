@@ -2,13 +2,13 @@
 This repository contains the implementation of a **Domain Knowledge Guided Latent Diffusion Model for Biomedical Text Generation**, incorporating an improved mechanism of guiding the latent diffusion model with domain knowledge to generate complex biomedical texts with syntactical coherence and fluency. 
 
 ### Installation
-Clone the repo
-cd Biomed-LDM
+Clone the repo  
+cd Biomed-LDM  
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
 ### Train Autoencoder:
-cd autoencoder  
+cd autoencoder    
 Import data in dataset directory  
 python pretrain_autoencoder.py  
 The trained model will be stored at ./autoencoder_pretrained/dataset_name/model_train_time/model.pt
