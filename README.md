@@ -11,4 +11,4 @@ Change the path of pretrained autoencoder model.pt
 CUDA_VISIBLE_DEVICES=2 python train_bioldm.py
 
 ## Acknowledgement
-The code is built on top of https://github.com/justinlovelace/latent-diffusion-for-language.git and https://github.com/lucidrains).
+The code is built on top of https://github.com/justinlovelace/latent-diffusion-for-language.git and https://github.com/lucidrains.
