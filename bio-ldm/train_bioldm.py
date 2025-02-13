@@ -145,7 +145,7 @@ if __name__ == "__main__":
     parser.add_argument("--eval_test", action="store_true", default=False)
     parser.add_argument("--resume_training", action="store_true", default=False)
     parser.add_argument("--resume_dir", type=str, default=None)
-    parser.add_argument("--latent_model_path", type=str, default="../autoencoder/umls/2025-02-01_11-41-13")
+    parser.add_argument("--latent_model_path", type=str, default="../autoencoder/autoencoder_pretrained/umls/2025-02-01_19-00-00")
     parser.add_argument("--init_path", type=str, default=None)
     
     args = parser.parse_args()
